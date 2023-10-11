@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    background-image: url(images/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteudoBanner {
+    padding: 90px 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.botao {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+button#preto {
+    background: #23272A;
+    color: #fff;
+}
+img#image01,
+img#image02,
+img#image03,
+img#image04 {
+width: 100%;
+}
+button {
+    height: 54px;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+section {
+    display: flex;
+    padding: 40px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 27px;
+}
+.cinza {
+    background: #F6F6F6;
+}
+footer {
+    background: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+.reverse {
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 800px) {
+    .last p {
+        width: 69%;
+    }
+    img#image01,
+    img#image02,
+    img#image03,
+    img#image04 {
+        width: 60%;    
+    }
+    section {
+        align-items: center;
+    }
+    span#text {
+        width: 60%;
+    }
+    .conteudoBanner {
+        padding: 90px 24px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+    p#text_banner {
+        font-size: 16px;
+        width: 757px;
+        letter-spacing: 0 !important;
+    }
+    .botao {
+        flex-direction: row;
+        justify-content: center;
+    }
+    button {
+        padding: 0rem 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .conteudoBanner {
+        padding: 90px 24px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .botao {
+        flex-direction: row;
+        justify-content: center;
+    }
+    button {
+        padding: 0rem 1.5rem;
+    }
+    p#text_banner {
+        font-size: 16px;
+        width: 757px;
+        letter-spacing: 0 !important;
+    }
+    img#image01,
+    img#image02,
+    img#image03,
+    img#image04 {
+        width: 50%;    
+    }
+    section {
+        flex-direction: row;
+        padding: 40px 95px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px 16px;
+    }
+    .cinza {
+        flex-direction: row-reverse;
+    }
+    .last {
+        flex-direction: column-reverse;
+        text-align: center;
+        display: flex;
+    }
+    .last p {
+        width: 78%;
+    }
+    h1#title_banner {
+        font-size: 56px;
+        width: 19rem !important;
+    }
+    span#text {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.3rem;
+        gap: 1.5rem;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .banner {
+        height: 42rem;
+    }
+    .conteudoBanner {
+        padding: 180px 24px;
+    }
+    img#image01, 
+    img#image02,
+    img#image03,
+    img#image04 {
+        width: 36%;
+    }    
+    span#text {
+        width: 28%;
+    }
+    .last p {
+        width: 55%;
+    }
+}
